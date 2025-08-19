@@ -1,0 +1,19 @@
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.upload-container input {
+  margin-bottom: 15px;
+}
+
+.upload-container button {
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
