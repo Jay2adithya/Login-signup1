@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning repository...'
-                git 'https://github.com/Jay2adithya/Login-signup1.git' // Change if needed
+                git branch: 'main', url:'https://github.com/Jay2adithya/Login-signup1.git' // Change if needed
             }
         }
 
