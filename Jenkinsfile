@@ -3,20 +3,23 @@ pipeline {
 
     environment {
         VENV_DIR = 'venv'
-        CSV_FILE = 'data.csv' // Update this if your CSV filename/path is different
+        CSV_FILE = 'uploads/csv.csv'
     }
 
     stages {
-        stage('Checkout') {
+        stage('Install Python') {
             steps {
-                echo 'Cloning repository...'
-                git branch: 'main', url:'https://github.com/Jay2adithya/Login-signup1.git' // Change if needed
+                echo '🔧 Installing Python and pip...'
+                sh '''
+                    apt-get update
+                    apt-get install -y python3 python3-pip python3-venv
+                '''
             }
         }
 
         stage('Set Up Python Environment') {
             steps {
-                echo 'Creating virtual environment and installing dependencies...'
+                echo '🐍 Creating virtual environment and installing dependencies...'
                 sh '''
                     python3 -m venv $VENV_DIR
                     . $VENV_DIR/bin/activate
@@ -26,12 +29,11 @@ pipeline {
             }
         }
 
-        stage('Run CSV Metrics Script') {
+        stage('Run CSV Script') {
             steps {
-                echo '📊 Running script to calculate CSV metrics...'
                 sh '''
                     . $VENV_DIR/bin/activate
-                    python3 validate_csv.py "$CSV_FILE"
+                    python3 validate_csv.py $CSV_FILE
                 '''
             }
         }
@@ -39,10 +41,10 @@ pipeline {
 
     post {
         success {
-            echo ' Build succeeded!'
+            echo '✅ CSV script ran successfully.'
         }
         failure {
-            echo ' Build failed. Check Console Output for errors.'
+            echo '❌ Build failed.'
         }
     }
 }
