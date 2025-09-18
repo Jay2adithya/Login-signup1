@@ -29,7 +29,7 @@ function HomePage() {
       alert(data.message);
     } catch (err) {
       console.error("Upload error:", err);
-      alert("Upload failed");
+      alert(err );
     }
   };
 

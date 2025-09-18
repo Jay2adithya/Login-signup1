@@ -1,0 +1,36 @@
+[2025-09-08T07:22:49.376+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: thirdflow.t2 manual__2025-09-08T07:22:42.867646+00:00 [queued]>
+[2025-09-08T07:22:49.392+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: thirdflow.t2 manual__2025-09-08T07:22:42.867646+00:00 [queued]>
+[2025-09-08T07:22:49.392+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-08T07:22:49.393+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2025-09-08T07:22:49.393+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-08T07:22:49.649+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): t2> on 2025-09-08 07:22:42.867646+00:00
+[2025-09-08T07:22:49.661+0000] {standard_task_runner.py:55} INFO - Started process 139 to run task
+[2025-09-08T07:22:49.669+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'thirdflow', 't2', 'manual__2025-09-08T07:22:42.867646+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/flow.py', '--cfg-path', '/tmp/tmprci4nn7l']
+[2025-09-08T07:22:49.674+0000] {standard_task_runner.py:83} INFO - Job 30: Subtask t2
+[2025-09-08T07:22:49.798+0000] {task_command.py:376} INFO - Running <TaskInstance: thirdflow.t2 manual__2025-09-08T07:22:42.867646+00:00 [running]> on host 7e2e02445dbf
+[2025-09-08T07:22:49.934+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=thirdflow
+AIRFLOW_CTX_TASK_ID=t2
+AIRFLOW_CTX_EXECUTION_DATE=2025-09-08T07:22:42.867646+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-09-08T07:22:42.867646+00:00
+[2025-09-08T07:22:49.949+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/flow.py", line 20, in runmetrics
+    metrics = get_metrics(path)
+  File "/opt/airflow/dags/csv_validate.py", line 8, in get_metrics
+    if not os.path.exists(path):
+  File "/usr/local/lib/python3.7/genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+[2025-09-08T07:22:49.967+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=thirdflow, task_id=t2, execution_date=20250908T072242, start_date=20250908T072249, end_date=20250908T072249
+[2025-09-08T07:22:49.987+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 30 for task t2 (stat: path should be string, bytes, os.PathLike or integer, not NoneType; 139)
+[2025-09-08T07:22:50.002+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2025-09-08T07:22:50.070+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

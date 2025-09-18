@@ -5,15 +5,17 @@ from werkzeug.utils import secure_filename
 from urllib.parse import quote_plus
 from extensions import db
 from models import User
+from models import DataQualityResult
 from sqlalchemy.dialects.postgresql import ARRAY
 from sqlalchemy import Column, Integer, String, DateTime
 from datetime import datetime
 import pandas as pd
 import os
+import uuid
 from flask import send_from_directory
-
 from google.cloud import storage
 
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/jay/login-signup/key_gcp.json"
 app = Flask(__name__)
 
 
@@ -28,7 +30,6 @@ class CSVSchema(db.Model):
     __tablename__ = 'csv_schemas'
     id = db.Column(Integer, primary_key=True)
     filename = db.Column(String(255), nullable=False)
-    columns = db.Column(ARRAY(String))
     uploaded_at = db.Column(DateTime, default=datetime.utcnow)
 
 
@@ -87,28 +88,33 @@ def upload_csv():
 
     try:
         filename = secure_filename(file.filename)
-        filepath = os.path.join("uploads", filename)
-        os.makedirs("uploads", exist_ok=True)
-        file.save(filepath)
 
-        df = pd.read_csv(filepath)
-        columns = list(df.columns)
-
-        client = storage.Client() 
-        bucket = client.bucket("your-bucket-name")  
+        # #Upload to GCP bucket
+        client = storage.Client()
+        bucket = client.bucket("gcp-labs-1")
         blob = bucket.blob(filename)
-        blob.upload_from_filename(filepath)
+        blob.upload_from_file(file, content_type=file.content_type)
 
-
-        schema_entry = CSVSchema(filename=filename, columns=columns)
+        # #Save record in DB
+        schema_entry = CSVSchema(filename=filename)
         db.session.add(schema_entry)
         db.session.commit()
 
-        return jsonify({"message": "File uploaded and schema stored successfully!"}), 200
+        # #Now download the same file back into uploads folder
+        local_dir = os.path.join(os.path.dirname(__file__), "uploads")
+        os.makedirs(local_dir, exist_ok=True)
+
+        local_file_path = os.path.join(local_dir, filename)
+        blob.download_to_filename(local_file_path)
+        print(f"Downloaded file to {local_file_path}")
+
+        return jsonify({"message": "File uploaded to GCS and downloaded locally!"}), 200
 
     except Exception as e:
-        print("Upload error:", e)
-        return jsonify({'message': 'Error uploading file'}), 500
+        import traceback
+        traceback.print_exc()
+        return jsonify({'message': f'Error uploading/downloading file: {str(e)}'}), 500
+
 
 @app.route('/files',methods=['GET'])
 def list_uploaded_files():
@@ -123,6 +129,30 @@ def list_uploaded_files():
 def download_file(filename):
     upload_dir ="uploads"
     return send_from_directory(upload_dir, filename, as_attachment=True)
+
+@app.route('/metrics', methods=['POST'])
+def save_metrics():
+    data = request.get_json()
+
+    try:
+        user_id = uuid.UUID(data.get('user_id'))
+        file_id = uuid.UUID(data.get('file_id'))
+        row_count = int(data.get('row_count'))
+        null_counts = data.get('null_counts')  
+
+        new_metric = DataQualityResult(
+            user_id=user_id,
+            file_id=file_id,
+            row_count=row_count,
+            null_counts=null_counts
+        )
+        db.session.add(new_metric)
+        db.session.commit()
+        return jsonify({"message": "Metrics stored successfully"}), 201
+
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({"message": f"Error storing metrics: {str(e)}"}), 500
 
 
 if __name__ == "__main__":

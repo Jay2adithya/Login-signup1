@@ -1,0 +1,10 @@
+pclass,survived1,columnrenamed,sex,age,sibsp,parch,ticket,fare,cabin,embarked
+1,1,"Allen, Miss. Elisabeth Walton",female,29,0,0,24160,211.3375,B5,S
+1,1,"Ostby, Miss. Helene Ragnhild",female,22,0,1,113509,61.9792,B36,C
+1,1,"Omont, Mr. Alfred Fernand",male,,0,0,F.C. 12998,25.7417,,C
+1,1,"Oliva y Ocana, Dona. Fermina",female,39,0,0,PC 17758,108.9,C105,C
+1,0,"Nicholson, Mr. Arthur Ernest",male,64,0,0,693,26,,S
+1,1,"Newsom, Miss. Helen Monypeny",female,19,0,2,11752,26.2833,D47,S
+1,0,"Newell, Mr. Arthur Webster",male,58,0,2,35273,113.275,D48,C
+1,1,"Newell, Miss. Marjorie",female,23,1,0,35273,113.275,D36,C
+1,0,"Ostby, Mr. Engelhart Cornelius",male,65,0,1,113509,61.9792,B30,C

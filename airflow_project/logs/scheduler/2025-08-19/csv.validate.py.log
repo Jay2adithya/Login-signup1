@@ -1,0 +1,291 @@
+[2025-08-19T19:13:37.489+0000] {processor.py:154} INFO - Started process (PID=1257) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:13:37.490+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:13:37.490+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:13:37.490+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:13:37.926+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:13:37.920+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/csv.validate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv.validate.py", line 6, in <module>
+    from scipy.stats import zscore
+ModuleNotFoundError: No module named 'scipy'
+[2025-08-19T19:13:37.927+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:13:37.957+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.470 seconds
+[2025-08-19T19:14:08.879+0000] {processor.py:154} INFO - Started process (PID=1314) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:14:08.880+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:14:08.881+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:14:08.881+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:14:09.031+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:14:09.029+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/csv.validate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv.validate.py", line 6, in <module>
+    from scipy.stats import zscore
+ModuleNotFoundError: No module named 'scipy'
+[2025-08-19T19:14:09.031+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:14:09.048+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.172 seconds
+[2025-08-19T19:14:39.147+0000] {processor.py:154} INFO - Started process (PID=1380) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:14:39.154+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:14:39.154+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:14:39.154+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:14:39.302+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:14:39.300+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/csv.validate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv.validate.py", line 6, in <module>
+    from scipy.stats import zscore
+ModuleNotFoundError: No module named 'scipy'
+[2025-08-19T19:14:39.302+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:14:39.318+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.174 seconds
+[2025-08-19T19:14:51.349+0000] {processor.py:154} INFO - Started process (PID=1393) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:14:51.349+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:14:51.350+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:14:51.350+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:14:51.500+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:14:51.498+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/csv.validate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv.validate.py", line 6, in <module>
+    from scipy.stats import zscore
+ModuleNotFoundError: No module named 'scipy'
+[2025-08-19T19:14:51.500+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:14:51.517+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.171 seconds
+[2025-08-19T19:15:21.709+0000] {processor.py:154} INFO - Started process (PID=1459) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:15:21.711+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:15:21.711+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:15:21.711+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:15:21.987+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:15:21.985+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/csv.validate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv.validate.py", line 6, in <module>
+    from scipy.stats import zscore
+ModuleNotFoundError: No module named 'scipy'
+[2025-08-19T19:15:21.987+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:15:22.004+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.298 seconds
+[2025-08-19T19:15:52.117+0000] {processor.py:154} INFO - Started process (PID=1516) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:15:52.119+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:15:52.119+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:15:52.119+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:15:52.262+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:15:52.260+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/csv.validate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv.validate.py", line 6, in <module>
+    from scipy.stats import zscore
+ModuleNotFoundError: No module named 'scipy'
+[2025-08-19T19:15:52.262+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:15:52.279+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.167 seconds
+[2025-08-19T19:16:23.173+0000] {processor.py:154} INFO - Started process (PID=1582) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:16:23.176+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:16:23.177+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:16:23.177+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:16:23.369+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:16:23.368+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/csv.validate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv.validate.py", line 6, in <module>
+    from scipy.stats import zscore
+ModuleNotFoundError: No module named 'scipy'
+[2025-08-19T19:16:23.370+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:16:23.387+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.216 seconds
+[2025-08-19T19:16:53.850+0000] {processor.py:154} INFO - Started process (PID=1648) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:16:53.857+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:16:53.857+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:16:53.857+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:16:54.017+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:16:54.014+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/csv.validate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv.validate.py", line 6, in <module>
+    from scipy.stats import zscore
+ModuleNotFoundError: No module named 'scipy'
+[2025-08-19T19:16:54.017+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:16:54.038+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.190 seconds
+[2025-08-19T19:17:24.067+0000] {processor.py:154} INFO - Started process (PID=1705) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:17:24.068+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:17:24.069+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:17:24.068+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:17:24.260+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:17:24.258+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/csv.validate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv.validate.py", line 6, in <module>
+    from scipy.stats import zscore
+ModuleNotFoundError: No module named 'scipy'
+[2025-08-19T19:17:24.261+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:17:24.282+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.218 seconds
+[2025-08-19T19:17:54.804+0000] {processor.py:154} INFO - Started process (PID=1771) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:17:54.805+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:17:54.805+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:17:54.805+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:17:54.964+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:17:54.962+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/csv.validate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv.validate.py", line 6, in <module>
+    from scipy.stats import zscore
+ModuleNotFoundError: No module named 'scipy'
+[2025-08-19T19:17:54.964+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:17:54.985+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.184 seconds
+[2025-08-19T19:18:25.006+0000] {processor.py:154} INFO - Started process (PID=1834) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:18:25.008+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:18:25.009+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:18:25.009+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:18:25.198+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:18:25.196+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/csv.validate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv.validate.py", line 6, in <module>
+    from scipy.stats import zscore
+ModuleNotFoundError: No module named 'scipy'
+[2025-08-19T19:18:25.198+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:18:25.220+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.217 seconds
+[2025-08-19T19:18:55.943+0000] {processor.py:154} INFO - Started process (PID=1893) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:18:55.944+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:18:55.945+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:18:55.945+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:18:56.118+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:18:56.117+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/csv.validate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv.validate.py", line 6, in <module>
+    from scipy.stats import zscore
+ModuleNotFoundError: No module named 'scipy'
+[2025-08-19T19:18:56.119+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:18:56.134+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.196 seconds
+[2025-08-19T19:19:26.169+0000] {processor.py:154} INFO - Started process (PID=1959) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:19:26.176+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:19:26.177+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:19:26.177+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:19:26.329+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:19:26.327+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/csv.validate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv.validate.py", line 6, in <module>
+    from scipy.stats import zscore
+ModuleNotFoundError: No module named 'scipy'
+[2025-08-19T19:19:26.329+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:19:26.346+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.180 seconds
+[2025-08-19T19:21:08.781+0000] {processor.py:154} INFO - Started process (PID=80) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:21:08.784+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:21:08.785+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:21:08.785+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:21:10.524+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:21:10.839+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:21:10.838+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:local_csv_validation_dag
+[2025-08-19T19:21:10.855+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:21:10.854+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:local_csv_validation_dag
+[2025-08-19T19:21:10.863+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:21:10.863+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:local_csv_validation_dag
+[2025-08-19T19:21:10.864+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:21:10.864+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:21:10.882+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:21:10.882+0000] {dag.py:2606} INFO - Creating ORM DAG for local_csv_validation_dag
+[2025-08-19T19:21:10.899+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:21:10.899+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:21:10.925+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 2.153 seconds
+[2025-08-19T19:21:41.080+0000] {processor.py:154} INFO - Started process (PID=153) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:21:41.081+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:21:41.082+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:21:41.082+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:21:41.717+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:21:41.747+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:21:41.746+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:21:41.767+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:21:41.767+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:21:41.785+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.707 seconds
+[2025-08-19T19:22:12.183+0000] {processor.py:154} INFO - Started process (PID=224) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:22:12.185+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:22:12.186+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:22:12.185+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:22:12.705+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:22:12.738+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:22:12.737+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:22:12.759+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:22:12.759+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:22:12.774+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.594 seconds
+[2025-08-19T19:22:42.953+0000] {processor.py:154} INFO - Started process (PID=292) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:22:42.954+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:22:42.955+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:22:42.955+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:22:43.592+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:22:43.636+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:22:43.636+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:22:43.666+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:22:43.666+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:22:43.688+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.739 seconds
+[2025-08-19T19:23:13.802+0000] {processor.py:154} INFO - Started process (PID=362) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:23:13.804+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:23:13.804+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:23:13.804+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:23:14.408+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:23:14.439+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:23:14.439+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:23:14.459+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:23:14.459+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:23:14.478+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.679 seconds
+[2025-08-19T19:24:59.869+0000] {processor.py:154} INFO - Started process (PID=60) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:24:59.871+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:24:59.874+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:24:59.874+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:25:01.628+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:25:01.820+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:25:01.819+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:25:01.908+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:25:01.907+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:25:01.960+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 2.100 seconds
+[2025-08-19T19:25:32.430+0000] {processor.py:154} INFO - Started process (PID=120) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:25:32.432+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:25:32.433+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:25:32.433+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:25:32.884+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:25:32.909+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:25:32.909+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:25:32.924+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:25:32.924+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:25:32.939+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.511 seconds
+[2025-08-19T19:26:02.991+0000] {processor.py:154} INFO - Started process (PID=187) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:26:02.993+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:26:02.994+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:26:02.993+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:26:03.523+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:26:03.555+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:26:03.555+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:26:03.582+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:26:03.582+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:26:03.602+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.614 seconds
+[2025-08-19T19:26:34.316+0000] {processor.py:154} INFO - Started process (PID=254) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:26:34.317+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:26:34.318+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:26:34.317+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:26:34.973+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:26:35.009+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:26:35.009+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:26:35.036+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:26:35.036+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:26:35.059+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.747 seconds
+[2025-08-19T19:27:05.484+0000] {processor.py:154} INFO - Started process (PID=312) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:27:05.486+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:27:05.486+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:27:05.486+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:27:05.991+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:27:06.017+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:27:06.017+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:27:06.033+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:27:06.033+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:27:06.048+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.567 seconds
+[2025-08-19T19:27:36.166+0000] {processor.py:154} INFO - Started process (PID=382) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:27:36.167+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:27:36.168+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:27:36.168+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:27:36.721+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:27:36.753+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:27:36.753+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:27:36.776+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:27:36.775+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:27:36.795+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.633 seconds
+[2025-08-19T19:28:07.760+0000] {processor.py:154} INFO - Started process (PID=451) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:28:07.761+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:28:07.762+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:28:07.762+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:28:08.282+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:28:08.309+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:28:08.309+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:28:08.325+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:28:08.325+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:28:08.340+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.583 seconds
+[2025-08-19T19:28:39.003+0000] {processor.py:154} INFO - Started process (PID=508) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:28:39.004+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:28:39.005+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:28:39.005+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:28:39.481+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:28:39.505+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:28:39.505+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:28:39.518+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:28:39.518+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:28:39.533+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.532 seconds
+[2025-08-19T19:29:10.437+0000] {processor.py:154} INFO - Started process (PID=574) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:29:10.438+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:29:10.439+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:29:10.439+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:29:11.008+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:29:11.053+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:29:11.053+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:29:11.086+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:29:11.086+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:29:11.111+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.677 seconds
+[2025-08-19T19:29:41.763+0000] {processor.py:154} INFO - Started process (PID=640) to work on /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:29:41.765+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/csv.validate.py for tasks to queue
+[2025-08-19T19:29:41.765+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:29:41.765+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:29:42.190+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/csv.validate.py
+[2025-08-19T19:29:42.215+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:29:42.215+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-08-19T19:29:42.230+0000] {logging_mixin.py:120} INFO - [2025-08-19T19:29:42.230+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-08-19T19:29:42.244+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/csv.validate.py took 0.483 seconds

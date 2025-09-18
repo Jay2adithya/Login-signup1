@@ -1,0 +1,35 @@
+[2025-09-12T09:56:57.654+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: load_csv_path_only_v1.load_path_task manual__2025-09-12T09:51:54.100931+00:00 [queued]>
+[2025-09-12T09:56:57.670+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: load_csv_path_only_v1.load_path_task manual__2025-09-12T09:51:54.100931+00:00 [queued]>
+[2025-09-12T09:56:57.670+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-12T09:56:57.670+0000] {taskinstance.py:1280} INFO - Starting attempt 2 of 2
+[2025-09-12T09:56:57.670+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-12T09:56:57.690+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): load_path_task> on 2025-09-12 09:51:54.100931+00:00
+[2025-09-12T09:56:57.696+0000] {standard_task_runner.py:55} INFO - Started process 562 to run task
+[2025-09-12T09:56:57.702+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'load_csv_path_only_v1', 'load_path_task', 'manual__2025-09-12T09:51:54.100931+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/flow.py', '--cfg-path', '/tmp/tmpy1w_xii7']
+[2025-09-12T09:56:57.703+0000] {standard_task_runner.py:83} INFO - Job 21: Subtask load_path_task
+[2025-09-12T09:56:57.786+0000] {task_command.py:388} INFO - Running <TaskInstance: load_csv_path_only_v1.load_path_task manual__2025-09-12T09:51:54.100931+00:00 [running]> on host e77c73851186
+[2025-09-12T09:56:57.875+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=load_csv_path_only_v1
+AIRFLOW_CTX_TASK_ID=load_path_task
+AIRFLOW_CTX_EXECUTION_DATE=2025-09-12T09:51:54.100931+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-09-12T09:51:54.100931+00:00
+[2025-09-12T09:56:57.877+0000] {logging_mixin.py:137} INFO - Checking: /home/jay/login-signup/***_project/uploads/jay.csv
+[2025-09-12T09:56:57.877+0000] {logging_mixin.py:137} INFO - Exists? False
+[2025-09-12T09:56:57.877+0000] {logging_mixin.py:137} INFO - CSV file not found.
+[2025-09-12T09:56:57.877+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/flow.py", line 27, in task_load_path
+    raise FileNotFoundError("CSV file not found.")
+FileNotFoundError: CSV file not found.
+[2025-09-12T09:56:57.888+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=load_csv_path_only_v1, task_id=load_path_task, execution_date=20250912T095154, start_date=20250912T095657, end_date=20250912T095657
+[2025-09-12T09:56:57.905+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 21 for task load_path_task (CSV file not found.; 562)
+[2025-09-12T09:56:57.953+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2025-09-12T09:56:57.975+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

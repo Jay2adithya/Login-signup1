@@ -1,0 +1,34 @@
+[2025-08-20T05:04:22.486+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: local_csv_validation_dag.run_local_validation manual__2025-08-20T05:04:21.584952+00:00 [queued]>
+[2025-08-20T05:04:22.494+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: local_csv_validation_dag.run_local_validation manual__2025-08-20T05:04:21.584952+00:00 [queued]>
+[2025-08-20T05:04:22.494+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-20T05:04:22.494+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2025-08-20T05:04:22.494+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-20T05:04:22.504+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): run_local_validation> on 2025-08-20 05:04:21.584952+00:00
+[2025-08-20T05:04:22.511+0000] {standard_task_runner.py:55} INFO - Started process 317 to run task
+[2025-08-20T05:04:22.515+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'local_csv_validation_dag', 'run_local_validation', 'manual__2025-08-20T05:04:21.584952+00:00', '--job-id', '86', '--raw', '--subdir', 'DAGS_FOLDER/csv.validate.py', '--cfg-path', '/tmp/tmpy0ekk769']
+[2025-08-20T05:04:22.517+0000] {standard_task_runner.py:83} INFO - Job 86: Subtask run_local_validation
+[2025-08-20T05:04:22.757+0000] {task_command.py:376} INFO - Running <TaskInstance: local_csv_validation_dag.run_local_validation manual__2025-08-20T05:04:21.584952+00:00 [running]> on host 74a21df92820
+[2025-08-20T05:04:22.814+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_csv_validation_dag
+AIRFLOW_CTX_TASK_ID=run_local_validation
+AIRFLOW_CTX_EXECUTION_DATE=2025-08-20T05:04:21.584952+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-08-20T05:04:21.584952+00:00
+[2025-08-20T05:04:22.815+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/csv.validate.py", line 57, in run_local_csv_validation
+    calculate_metrics(uploads_dir)
+  File "/opt/airflow/dags/csv.validate.py", line 27, in calculate_metrics
+    raise FileNotFoundError("No CSV files found in directory")
+FileNotFoundError: No CSV files found in directory
+[2025-08-20T05:04:22.822+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=local_csv_validation_dag, task_id=run_local_validation, execution_date=20250820T050421, start_date=20250820T050422, end_date=20250820T050422
+[2025-08-20T05:04:22.830+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 86 for task run_local_validation (No CSV files found in directory; 317)
+[2025-08-20T05:04:22.848+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2025-08-20T05:04:22.865+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

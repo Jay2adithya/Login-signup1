@@ -1,0 +1,32 @@
+[2025-08-19T18:56:40.839+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: csv_validation_dag.run_csv_validation manual__2025-08-19T18:56:39.182982+00:00 [queued]>
+[2025-08-19T18:56:40.848+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: csv_validation_dag.run_csv_validation manual__2025-08-19T18:56:39.182982+00:00 [queued]>
+[2025-08-19T18:56:40.848+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-19T18:56:40.848+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2025-08-19T18:56:40.848+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-19T18:56:40.862+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): run_csv_validation> on 2025-08-19 18:56:39.182982+00:00
+[2025-08-19T18:56:40.870+0000] {standard_task_runner.py:55} INFO - Started process 93 to run task
+[2025-08-19T18:56:40.874+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'csv_validation_dag', 'run_csv_validation', 'manual__2025-08-19T18:56:39.182982+00:00', '--job-id', '59', '--raw', '--subdir', 'DAGS_FOLDER/csv_validation.py', '--cfg-path', '/tmp/tmp0ok42eq3']
+[2025-08-19T18:56:40.876+0000] {standard_task_runner.py:83} INFO - Job 59: Subtask run_csv_validation
+[2025-08-19T18:56:40.941+0000] {task_command.py:376} INFO - Running <TaskInstance: csv_validation_dag.run_csv_validation manual__2025-08-19T18:56:39.182982+00:00 [running]> on host d2d74b864231
+[2025-08-19T18:56:41.010+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=csv_validation_dag
+AIRFLOW_CTX_TASK_ID=run_csv_validation
+AIRFLOW_CTX_EXECUTION_DATE=2025-08-19T18:56:39.182982+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-08-19T18:56:39.182982+00:00
+[2025-08-19T18:56:41.012+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/csv_validation.py", line 42, in run_pipeline
+    process_csv(conf['bucket'], conf['key'], conf['user_id'], conf['file_id'])
+KeyError: 'bucket'
+[2025-08-19T18:56:41.020+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=csv_validation_dag, task_id=run_csv_validation, execution_date=20250819T185639, start_date=20250819T185640, end_date=20250819T185641
+[2025-08-19T18:56:41.032+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 59 for task run_csv_validation ('bucket'; 93)
+[2025-08-19T18:56:41.046+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2025-08-19T18:56:41.065+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

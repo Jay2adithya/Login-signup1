@@ -1,0 +1,445 @@
+[2025-09-01T05:03:06.501+0000] {processor.py:154} INFO - Started process (PID=61) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:03:06.503+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:03:06.506+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:03:06.505+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:03:08.024+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:03:08.112+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:03:08.112+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:03:08.141+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:03:08.141+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:03:08.172+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 1.675 seconds
+[2025-09-01T05:03:38.857+0000] {processor.py:154} INFO - Started process (PID=140) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:03:38.858+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:03:38.859+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:03:38.858+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:03:39.768+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:03:39.812+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:03:39.812+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:03:39.835+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:03:39.835+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:03:39.855+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 1.004 seconds
+[2025-09-01T05:04:10.805+0000] {processor.py:154} INFO - Started process (PID=209) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:04:10.807+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:04:10.808+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:04:10.808+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:04:12.956+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:04:13.037+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:04:13.037+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:04:13.066+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:04:13.066+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:04:13.102+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 2.309 seconds
+[2025-09-01T05:04:43.198+0000] {processor.py:154} INFO - Started process (PID=277) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:04:43.202+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:04:43.203+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:04:43.203+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:04:44.005+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:04:44.053+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:04:44.052+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:04:44.087+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:04:44.087+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:04:44.113+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 0.918 seconds
+[2025-09-01T05:05:14.386+0000] {processor.py:154} INFO - Started process (PID=345) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:05:14.387+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:05:14.388+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:05:14.387+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:05:15.062+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:05:15.124+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:05:15.123+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:05:15.142+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:05:15.142+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:05:15.162+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 0.780 seconds
+[2025-09-01T05:05:45.764+0000] {processor.py:154} INFO - Started process (PID=412) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:05:45.765+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:05:45.766+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:05:45.766+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:05:46.407+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:05:46.456+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:05:46.455+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:05:46.482+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:05:46.482+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:05:46.505+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 0.744 seconds
+[2025-09-01T05:06:17.395+0000] {processor.py:154} INFO - Started process (PID=473) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:06:17.396+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:06:17.397+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:06:17.397+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:06:17.969+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:06:18.022+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:06:18.022+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:06:18.042+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:06:18.042+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:06:18.062+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 0.670 seconds
+[2025-09-01T05:06:48.352+0000] {processor.py:154} INFO - Started process (PID=540) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:06:48.354+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:06:48.354+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:06:48.354+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:06:49.035+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:06:49.083+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:06:49.082+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:06:49.113+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:06:49.113+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:06:49.147+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 0.798 seconds
+[2025-09-01T05:07:19.910+0000] {processor.py:154} INFO - Started process (PID=608) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:07:19.912+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:07:19.912+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:07:19.912+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:07:20.676+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:07:20.783+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:07:20.782+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:07:20.819+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:07:20.819+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:07:20.864+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 0.959 seconds
+[2025-09-01T05:07:51.069+0000] {processor.py:154} INFO - Started process (PID=666) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:07:51.070+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:07:51.071+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:07:51.071+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:07:51.785+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:07:51.829+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:07:51.827+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:07:51.855+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:07:51.855+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:07:51.887+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 0.823 seconds
+[2025-09-01T05:08:22.461+0000] {processor.py:154} INFO - Started process (PID=733) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:08:22.462+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:08:22.463+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:08:22.463+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:08:23.263+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:08:23.381+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:08:23.381+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:08:23.421+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:08:23.421+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:08:23.461+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 1.004 seconds
+[2025-09-01T05:08:53.522+0000] {processor.py:154} INFO - Started process (PID=800) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:08:53.524+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:08:53.525+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:08:53.524+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:08:54.420+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:08:54.479+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:08:54.478+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:08:54.524+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:08:54.523+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:08:54.555+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 1.037 seconds
+[2025-09-01T05:09:24.696+0000] {processor.py:154} INFO - Started process (PID=859) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:09:24.698+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:09:24.699+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:09:24.699+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:09:25.454+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:09:25.558+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:09:25.557+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:09:25.592+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:09:25.591+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:09:25.619+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 0.926 seconds
+[2025-09-01T05:09:55.924+0000] {processor.py:154} INFO - Started process (PID=927) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:09:55.928+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:09:55.931+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:09:55.930+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:09:56.805+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:09:56.852+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:09:56.851+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:09:56.885+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:09:56.885+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:09:56.914+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 0.995 seconds
+[2025-09-01T05:10:27.805+0000] {processor.py:154} INFO - Started process (PID=995) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:10:27.806+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:10:27.807+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:10:27.807+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:10:28.579+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:10:28.691+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:10:28.690+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:10:28.724+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:10:28.723+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:10:28.757+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 0.957 seconds
+[2025-09-01T05:10:59.068+0000] {processor.py:154} INFO - Started process (PID=1063) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:10:59.069+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:10:59.070+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:10:59.070+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:10:59.996+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:11:00.042+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:11:00.042+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:11:00.074+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:11:00.074+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:11:00.108+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 1.045 seconds
+[2025-09-01T05:11:31.017+0000] {processor.py:154} INFO - Started process (PID=1122) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:11:31.018+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:11:31.019+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:11:31.018+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:11:31.527+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:11:31.580+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:11:31.580+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:11:31.596+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:11:31.596+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:11:31.616+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 0.603 seconds
+[2025-09-01T05:12:02.459+0000] {processor.py:154} INFO - Started process (PID=1190) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:12:02.460+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:12:02.461+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:12:02.461+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:12:03.121+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:12:03.158+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:12:03.158+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:12:03.181+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:12:03.181+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:12:03.198+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 0.742 seconds
+[2025-09-01T05:12:34.237+0000] {processor.py:154} INFO - Started process (PID=1259) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:12:34.239+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:12:34.240+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:12:34.239+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:12:34.977+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:12:35.051+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:12:35.051+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:12:35.078+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:12:35.078+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:12:35.107+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 0.876 seconds
+[2025-09-01T05:13:06.039+0000] {processor.py:154} INFO - Started process (PID=1327) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:13:06.041+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:13:06.042+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:13:06.042+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:13:07.564+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:13:07.613+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:13:07.613+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:13:07.646+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:13:07.646+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:13:07.678+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 1.652 seconds
+[2025-09-01T05:13:38.512+0000] {processor.py:154} INFO - Started process (PID=1386) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:13:38.513+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:13:38.513+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:13:38.513+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:13:39.240+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:13:39.371+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:13:39.370+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:13:39.407+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:13:39.406+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:13:39.445+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 0.937 seconds
+[2025-09-01T05:14:10.338+0000] {processor.py:154} INFO - Started process (PID=1454) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:14:10.340+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:14:10.343+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:14:10.343+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:14:12.836+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:14:12.947+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:14:12.946+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:14:13.012+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:14:13.012+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:14:13.062+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 2.744 seconds
+[2025-09-01T05:14:44.175+0000] {processor.py:154} INFO - Started process (PID=1513) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:14:44.179+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:14:44.181+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:14:44.181+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:14:47.835+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:14:48.002+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:14:48.001+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:14:48.047+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:14:48.046+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:14:48.096+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 3.936 seconds
+[2025-09-01T05:15:18.441+0000] {processor.py:154} INFO - Started process (PID=1581) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:15:18.460+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:15:18.464+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:15:18.463+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:15:21.980+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:15:22.248+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:15:22.247+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:15:22.406+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:15:22.406+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:15:22.496+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 4.111 seconds
+[2025-09-01T05:15:53.216+0000] {processor.py:154} INFO - Started process (PID=1640) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:15:53.225+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:15:53.227+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:15:53.226+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:15:55.841+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:15:56.285+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:15:56.284+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-09-01T05:15:56.469+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:15:56.464+0000] {dag.py:3340} INFO - Setting next_dagrun for local_csv_validation_dag to None, run_after=None
+[2025-09-01T05:15:56.615+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data/csv_validate.py took 3.419 seconds
+[2025-09-01T05:22:24.873+0000] {processor.py:154} INFO - Started process (PID=1691) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:22:24.879+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:22:24.882+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:22:24.881+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:22:27.563+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:22:27.909+0000] {processor.py:179} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 371, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 175, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 159, in _handle_dag_file_processing
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 781, in process_file
+    dagbag.sync_to_db(processor_subdir=self._dag_directory, session=session)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 644, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 384, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 362, in iter
+    raise retry_exc.reraise()
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 195, in reraise
+    raise self.last_attempt.result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 428, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 656, in sync_to_db
+    serialize_errors.extend(_serialize_dag_capturing_errors(dag, session))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 630, in _serialize_dag_capturing_errors
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/serialized_dag.py", line 150, in write_dag
+    (timezone.utcnow() - timedelta(seconds=min_update_interval)) < cls.last_updated,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2810, in first
+    return self.limit(1)._iter().first()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2897, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1688, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1530, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3197, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3276, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3247, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2101, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 371, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-09-01T05:31:38.348+0000] {processor.py:154} INFO - Started process (PID=1715) to work on /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:31:38.349+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data/csv_validate.py for tasks to queue
+[2025-09-01T05:31:38.350+0000] {logging_mixin.py:120} INFO - [2025-09-01T05:31:38.350+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:31:39.281+0000] {processor.py:766} INFO - DAG(s) dict_keys(['local_csv_validation_dag']) retrieved from /opt/airflow/dags/data/csv_validate.py
+[2025-09-01T05:31:40.429+0000] {processor.py:179} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 371, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 175, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 159, in _handle_dag_file_processing
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 781, in process_file
+    dagbag.sync_to_db(processor_subdir=self._dag_directory, session=session)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 644, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 384, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 362, in iter
+    raise retry_exc.reraise()
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 195, in reraise
+    raise self.last_attempt.result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 428, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 656, in sync_to_db
+    serialize_errors.extend(_serialize_dag_capturing_errors(dag, session))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 630, in _serialize_dag_capturing_errors
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/serialized_dag.py", line 150, in write_dag
+    (timezone.utcnow() - timedelta(seconds=min_update_interval)) < cls.last_updated,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2810, in first
+    return self.limit(1)._iter().first()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2897, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1688, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1530, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3197, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3276, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3247, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2101, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 371, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
